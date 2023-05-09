@@ -1,0 +1,62 @@
+<head>
+<meta charset="ISO-8859-1">
+<title>Delete Employee</title>
+<style>
+.emp_tab_div, h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type=submit] {
+	background-color: deepskyblue;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid transparent;
+}
+
+input[type=submit]:hover {
+	color: white;
+	cursor: pointer;
+	border: 1px solid black;
+	transition: ease-in 0.2s;
+}
+
+input[type=submit]:active {
+	background-color: black;
+	color: white;
+}
+
+input[type=text] {
+	border: none;
+	padding: 10PX;
+	outline: none;
+}
+
+fieldset {
+	width: 400px;
+}
+</style>
+</head>
+
+<body>
+	<form action="DeleteEmp.jsp" method="post">
+		<h1>Delete Employee From Database</h1>
+		<br>
+		<div class="emp_tab_div">
+			<fieldset>
+				<legend> Employee Information </legend>
+				<fieldset>
+					<legend>Employee ID:</legend>
+					<input type="text" name="id" required>
+				</fieldset>
+				<br>
+				<br> <input type="submit" value="Delete Employee" />
+
+			</fieldset>
+		</div>
+	</form>
+</body>
+
+</html>
