@@ -10,9 +10,9 @@ import java.util.Scanner;
 public class Practical03 {
 
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost/class_db";
+        String url = "jdbc:mysql://localhost/mysqlDatabase";
         String user = "root";
-        String password = "mysql1234";
+        String password = "mysqlDatabasePaww";
         try {
             Connection connection = DriverManager.getConnection(url, user, password);
             System.out.println("Connected to the database!");

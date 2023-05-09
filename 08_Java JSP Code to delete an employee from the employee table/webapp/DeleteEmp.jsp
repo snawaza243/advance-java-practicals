@@ -8,7 +8,7 @@ String emp_id = request.getParameter("id");
 
 try {
 	Class.forName("com.mysql.jdbc.Driver");
-	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/class_db", "root", "mysql1234");
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysqlDatabase", "root", "mysqlDatabasePassword");
 
 	String query0 = "SELECT * FROM employee WHERE id = ?";
 	PreparedStatement psmt0 = con.prepareStatement(query0);

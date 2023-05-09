@@ -10,7 +10,7 @@ public List<Customer> getCustomers(){
 List<Customer> list=new ArrayList<Customer>();
 try{
 Class.forName("oracle.jdbc.driver.OracleDriver");
-Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/class_db","root","mysql234");
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mysqlDatabase","root","mysqlDatabasePassword");
 PreparedStatement ps=con.prepareStatement("select * from customer400");
 ResultSet rs=ps.executeQuery();
 

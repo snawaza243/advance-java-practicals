@@ -10,9 +10,9 @@ public class Practical02 {
         try {
             Class.forName("com.mysql.jdbc.Driver");
 
-            String url = "jdbc:mysql://localhost:3306/class_db";
+            String url = "jdbc:mysql://localhost:3306/mysqlDatabase";
             String username = "root";
-            String password = "mysql1234";
+            String password = "mysqlDatabasePassword";
             Connection con = DriverManager.getConnection(url, username, password);
             String sql = "Insert into employee(id,name,gender,designation,salary)" + "values(?,?,?,?,?)";
             PreparedStatement ps = con.prepareStatement(sql);

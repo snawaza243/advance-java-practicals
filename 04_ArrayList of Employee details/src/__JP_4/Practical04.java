@@ -9,9 +9,9 @@ import java.util.ArrayList;
 
 public class Practical04 {
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-	static final String DB_URL = "jdbc:mysql://localhost/class_db";
+	static final String DB_URL = "jdbc:mysql://localhost/mysqlDatabase";
 	static final String USER = "root";
-	static final String PASS = "mysql1234";
+	static final String PASS = "mysqlDatabasePassword";
 
 	public static void main(String[] args) {
 		Connection conn = null;

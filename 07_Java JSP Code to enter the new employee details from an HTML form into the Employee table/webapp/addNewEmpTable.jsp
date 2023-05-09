@@ -16,7 +16,7 @@
 	
 	try{
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/class_db","root","mysql1234");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysqlDatabase","root","mysqlDatabasePassword");
 		String query = "insert into employee (id, name, gender, designation, salary) values(?, ?, ?, ?,?)";
 		
 		PreparedStatement pstm = con.prepareStatement(query);
