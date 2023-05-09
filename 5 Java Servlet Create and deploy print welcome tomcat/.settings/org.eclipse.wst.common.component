@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="__JP_5_Servlet_Welcome">
+        <wb-resource deploy-path="/" source-path="/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="__JP_5_Servlet_Welcome"/>
+        <property name="java-output-path" value="/__JP_5_Servlet_Welcome/build/classes"/>
+    </wb-module>
+</project-modules>
